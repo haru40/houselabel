@@ -1,0 +1,204 @@
+/* =========================
+   SUMMER EVENT
+========================= */
+
+#summer-event {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 120px;
+}
+
+/* =========================
+   왼쪽 메인 이미지
+========================= */
+
+.event-banner {
+  width: 38%;
+  flex-shrink: 0;
+}
+
+.event-banner > img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+
+  border-radius: 0 60px 0 0;
+}
+
+/* =========================
+   오른쪽 영역
+========================= */
+
+.event-content {
+  width: 59%;
+
+  padding: 0 80px;
+
+  box-sizing: border-box;
+}
+
+/* 제목 */
+
+.event-content > h3 {
+  font-family: Georgia, serif;
+
+  font-size: 36px;
+  font-weight: normal;
+
+  color: #80665a;
+
+  margin: 0 0 15px;
+}
+
+/* 설명 */
+
+.event-content > p {
+  font-size: 14px;
+
+  color: #aa9587;
+
+  line-height: 1.7;
+
+  margin-bottom: 25px;
+}
+
+/* =========================
+   상품 4개
+========================= */
+
+#event-products {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: start;
+
+  column-gap: 45px;
+  row-gap: 30px;
+
+  padding: 25px 0;
+
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+/* 상품 링크 */
+#event-products > a {
+  width: 100%;
+
+  display: block;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   상품 한 개
+========================= */
+
+#event-products .event-product-card {
+  width: 100%;
+
+  min-height: 175px;
+
+  display: grid;
+
+  /* 사진 영역도 같이 키움 */
+  grid-template-columns: 140px 1fr;
+
+  align-items: center;
+
+  column-gap: 28px;
+}
+
+/* =========================
+   상품 이미지
+========================= */
+
+#event-products .event-product-card > img {
+  width: 125px;
+  height: 145px;
+
+  object-fit: contain;
+
+  display: block;
+}
+
+/* =========================
+   상품 정보
+========================= */
+
+#event-products .event-product-info {
+  min-width: 0;
+}
+
+/* 상품 이름 */
+#event-products .event-product-info > h4 {
+  margin: 0 0 25px;
+
+  font-size: 15px;
+  font-weight: normal;
+
+  line-height: 1.5;
+
+  color: #333;
+}
+
+/* 가격 */
+#event-products .event-product-info > h5 {
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  color: #333;
+}
+/* =========================
+   SUMMER / GIFT 화살표
+========================= */
+
+#summer-event {
+  position: relative;
+}
+
+.event-prev,
+.event-next {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 45px;
+  height: 70px;
+
+  border: none;
+
+  background-color: rgba(255, 255, 255, 0.45);
+
+  color: #b89c83;
+
+  font-size: 38px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  z-index: 20;
+}
+
+/* 왼쪽 */
+.event-prev {
+  left: 15px;
+  background: none;
+}
+
+/* 오른쪽 */
+.event-next {
+  right: 15px;
+}

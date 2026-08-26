@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  width: 100%;
+
+  margin-top: 120px;
+
+  border-top: 1px solid #eee;
+
+  background-color: #fff;
+}
+
+/* footer 전체 내용 */
+
+.footer-inner {
+  width: 75%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+
+  padding: 70px 0;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 90px;
+}
+
+/* 각 박스 */
+
+.footer-box {
+  font-size: 14px;
+
+  color: #555;
+
+  line-height: 2;
+}
+
+/* 제목 */
+
+.footer-box > h3 {
+  font-size: 15px;
+  font-weight: bold;
+
+  color: #333;
+
+  margin-bottom: 25px;
+}
+
+/* 전화번호 */
+
+.footer-box > h4 {
+  font-size: 15px;
+
+  color: #b69782;
+
+  margin-bottom: 12px;
+}
+
+/* 일반 글씨 */
+
+.footer-box > p {
+  margin: 0;
+}
+
+/* 왼쪽 항목명 */
+
+.footer-box > p > span {
+  display: inline-block;
+
+  margin-right: 20px;
+
+  color: #b69782;
+}
+
+/* COMPANY INFO */
+
+.company-info {
+  min-width: 360px;
+}
+
+.company-info > p > span {
+  width: 135px;
+
+  margin-right: 0;
+}
+
+/* CONTACT US */
+
+.contact-us {
+  min-width: 370px;
+}
+
+.contact-us > p > span {
+  min-width: 130px;
+}
+
+/* 링크 메뉴 */
+
+.footer-menu {
+  min-width: 145px;
+}
+
+.footer-menu > a {
+  display: block;
+
+  font-size: 14px;
+
+  color: #b69782;
+
+  text-decoration: none;
+
+  margin-bottom: 8px;
+}
+
+.footer-menu > a:hover {
+  color: #6f594b;
+}
+
+/* =========================
+   copyright
+========================= */
+
+.footer-bottom {
+  width: 100%;
+
+  padding: 18px 0;
+
+  text-align: center;
+
+  border-top: 1px solid #eee;
+
+  font-size: 12px;
+
+  color: #c6b4aa;
+}
+
+/* CUSTOMER CENTER */
+.customer-center {
+  min-width: 180px;
+}
+
+.customer-center > h3,
+.customer-center > h4,
+.customer-center > p {
+  white-space: nowrap;
+}

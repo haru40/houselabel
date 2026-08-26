@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Skirt,100% bomuld, white",
+    "price": 166000,
+    "image": "./img/Summer event/skirt.jpg"
+  },
+  {
+    "name": "Throw, 90x170 cm, cotton, black/ecru",
+    "price": 84000,
+    "image": "./img/Summer event/cotton.jpg"
+  },
+  {
+    "name": "Deli Square Dish 재입고",
+    "price": 60000,
+    "image": "./img/Summer event/dish.jpg"
+  },
+  {
+    "name": "Deli Plate 30 재입고",
+    "price": 48000,
+    "image": "./img/Summer event/plate.jpg"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "rank": 1,
+    "name": "Bell Folwer Plate / Bowl",
+    "price": 46000,
+    "image": "./img/Curated by HouseLabeL/plate1.jpg"
+  },
+  {
+    "rank": 2,
+    "name": "Octagonal Petal Dish (2size)",
+    "price": 260000,
+    "image": "./img/Curated by HouseLabeL/plate2.jpg"
+  },
+  {
+    "rank": 3,
+    "name": "Octagonal plate",
+    "price": 340000,
+    "image": "./img/Curated by HouseLabeL/plate3.jpg"
+  },
+  {
+    "rank": 4,
+    "name": "Short Rim Plate (3 size)",
+    "price": 68000,
+    "image": "./img/Curated by HouseLabeL/plate4.jpg"
+  },
+  {
+    "rank": 5,
+    "name": "Table runner dusty blue",
+    "price": 76000,
+    "image": "./img/Curated by HouseLabeL/Table runner.jpg"
+  },
+  {
+    "rank": 6,
+    "name": "Cup latte sky blue 5stripes",
+    "price": 59000,
+    "image": "./img/Curated by HouseLabeL/latte sky blue cup.jpg"
+  },
+  {
+    "rank": 7,
+    "name": "Cup latte blue 5stripes",
+    "price": 59000,
+    "image": "./img/Curated by HouseLabeL/latte blue cup.jpg"
+  },
+  {
+    "rank": 8,
+    "name": "Kitchen aid Coral",
+    "price": 230000,
+    "image": "./img/Curated by HouseLabeL/aid Coral.jpg"
+  },
+  {
+    "rank": 9,
+    "name": "Octagonal plate",
+    "price": 340000,
+    "image": "./img/Curated by HouseLabeL/plate5.jpg"
+  },
+  {
+    "rank": 10,
+    "name": "Slim Rectangular Plate - Modern Classic",
+    "price": 230000,
+    "image": "./img/Curated by HouseLabeL/Plate6.jpg"
+  }
+]

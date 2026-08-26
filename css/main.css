@@ -1,0 +1,464 @@
+@charset "utf-8";
+
+/* =========================
+   Main
+========================= */
+body {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  min-height: 700px;
+  background-color: #fff;
+}
+
+/* 링크 기본 스타일 제거 */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   상품 전체 영역
+========================= */
+
+.section-grid {
+  width: 92%;
+  max-width: 1500px;
+
+  margin: 40px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 20px;
+}
+
+/* =========================
+   제목
+========================= */
+
+.house-edit > h3 {
+  width: 100%;
+
+  font-family: Georgia, serif;
+  font-size: 38px;
+  font-weight: normal;
+
+  text-align: center;
+  color: #555;
+
+  margin-bottom: 15px;
+}
+
+.house-edit > p {
+  width: 100%;
+
+  font-size: 16px;
+
+  text-align: center;
+  color: #9b8b7d;
+
+  margin-bottom: 30px;
+}
+
+/* =========================
+   상품 링크
+========================= */
+
+.house-edit > a {
+  width: calc(25% - 15px);
+  display: block;
+}
+
+/* =========================
+   상품 카드
+========================= */
+
+.product-card {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+}
+
+/* 상품 이미지 */
+
+.product-card > img {
+  width: 100%;
+  height: 480px;
+
+  object-fit: contain;
+
+  display: block;
+
+  margin-bottom: 20px;
+}
+
+/* 상품 이름 */
+
+.product-card > h4 {
+  font-size: 18px;
+  font-weight: normal;
+
+  color: #222;
+
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+/* 가격 */
+
+.product-card > h5 {
+  font-size: 18px;
+  font-weight: bold;
+
+  color: #333;
+
+  padding: 13px 0;
+
+  border-bottom: 1px solid #ddd;
+}
+/* =========================
+   CURATED 상품 슬라이더
+========================= */
+
+.curated-section {
+  width: 92%;
+  max-width: 1500px;
+
+  margin: 40px auto;
+}
+
+/* =========================
+   CURATED 전체 배경
+========================= */
+
+#collection1 {
+  width: 100%;
+  max-width: none;
+
+  /* Scenes와 Curated 사이 간격 */
+  margin: 140px 0 0;
+
+  /* Curated 내부 위아래 여백 */
+  padding: 80px 0 90px;
+
+  background-color: #f8f6f2;
+
+  box-sizing: border-box;
+}
+
+/* 상품 영역은 다시 가운데 정렬 */
+#collection1 .curated-slider {
+  width: 92%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+
+/* 상품이 보이는 영역 */
+.curated-slider {
+  width: 100%;
+
+  overflow: hidden;
+}
+
+/* 실제로 움직이는 상품 줄 */
+#curated-track {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: nowrap;
+
+  gap: 20px;
+
+  transition: transform 0.6s ease;
+}
+
+/* 상품 하나 */
+.curated-product {
+  flex: 0 0 calc((100% - 60px) / 4);
+
+  position: relative;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =========================
+   상품 이미지 영역
+========================= */
+
+.curated-image {
+  width: 100%;
+  height: 480px;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.curated-image > img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+
+  transition: transform 0.4s ease;
+}
+
+/* 마우스 올리면 사진 확대 */
+.curated-product:hover .curated-image > img {
+  transform: scale(1.04);
+}
+
+/* =========================
+   순위 숫자
+========================= */
+
+.curated-rank {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #788272;
+
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  z-index: 3;
+}
+
+/* =========================
+   Hover 버튼
+========================= */
+
+.curated-actions {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: flex;
+
+  gap: 8px;
+
+  opacity: 0;
+
+  transition: opacity 0.3s ease;
+
+  z-index: 4;
+}
+
+/* 마우스 올리면 버튼 등장 */
+.curated-product:hover .curated-actions {
+  opacity: 1;
+}
+
+.curated-actions > button {
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: rgba(190, 171, 155, 0.85);
+
+  color: #fff;
+
+  font-size: 18px;
+
+  cursor: pointer;
+}
+
+/* =========================
+   상품명
+========================= */
+
+.curated-product > h4 {
+  font-size: 17px;
+  font-weight: normal;
+
+  padding: 18px 0 15px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+/* =========================
+   가격
+========================= */
+
+.curated-product > h5 {
+  font-size: 17px;
+  font-weight: bold;
+
+  padding: 13px 0;
+
+  border-bottom: 1px solid #ddd;
+}
+/* =========================
+   스크롤 등장 효과
+========================= */
+
+/* 처음에는 살짝 아래 + 투명 */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(50px);
+
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+/* 화면에 들어오면 */
+.scroll-reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* =========================
+   CURATED 상품 순차 등장
+========================= */
+
+/* 처음에는 상품을 숨겨둠 */
+.curated-product {
+  opacity: 0;
+  transform: translateY(35px);
+
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+/* Curated 영역이 화면에 들어오면 상품 등장 */
+.curated-section.show .curated-product {
+  opacity: 1;
+  transform: translateY(0);
+
+  /* 5번째 이후 상품도 보이도록 기본값 */
+  transition-delay: 0.4s;
+}
+
+/* 1번째 상품 */
+.curated-section.show .curated-product:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+/* 2번째 상품 */
+.curated-section.show .curated-product:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+/* 3번째 상품 */
+.curated-section.show .curated-product:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+/* 4번째 상품 */
+.curated-section.show .curated-product:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
+/* =========================
+   THE HOUSELABEL EDIT CATEGORY
+========================= */
+
+.edit-category {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 55px;
+
+  margin: 5px 0 35px;
+}
+
+/* 카테고리 */
+.edit-category > a {
+  position: relative;
+
+  padding: 18px 0;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  color: #888;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: color 0.3s ease;
+}
+
+/* 커서 올렸을 때 */
+.edit-category > a:hover {
+  color: #9a6e50;
+}
+
+/* 기본 선택된 TABLEWARE */
+.edit-category > a.active {
+  color: #9a6e50;
+}
+
+/* =========================
+   위쪽 동그란 점
+========================= */
+
+.edit-category > a::before {
+  content: "";
+
+  position: absolute;
+
+  top: 2px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+
+  background-color: #9a6e50;
+
+  opacity: 0;
+
+  transition: opacity 0.3s ease;
+}
+
+/* 선택된 메뉴에는 점 항상 표시 */
+.edit-category > a.active::before {
+  opacity: 1;
+}
+
+/* 다른 메뉴도 커서 올리면 점 표시 */
+.edit-category > a:hover::before {
+  opacity: 1;
+}

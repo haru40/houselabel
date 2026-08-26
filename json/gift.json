@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Gift Selection",
+    "english": "Gifts made to share warmth",
+    "korean": "감도를 담은 선물, 따뜻함을 전하는 하우스라벨의 리빙 셀렉션.",
+    "banner": "./img/Gift Selection/gift01.jpg",
+
+    "products": [
+      {
+        "name": "mini tagine, brown",
+        "price": 49000,
+        "image": "./img/Gift Selection/gift_product01.jpg"
+      },
+      {
+        "name": "Scarf, 100x220cm, 100% cotton slub, old brown",
+        "price": 133000,
+        "image": "./img/Gift Selection/gift_product02.jpg"
+      },
+      {
+        "name": "purse brown",
+        "price": 120000,
+        "image": "./img/Gift Selection/gift_product03.jpg"
+      },
+      {
+        "name": "purse black",
+        "price": 120000,
+        "image": "./img/Gift Selection/gift_product04.jpg"
+      }
+    ]
+}]

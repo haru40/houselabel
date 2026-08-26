@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HouseLabel</title>
+
+    <!-- =========================
+         CSS
+    ========================== -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/scenes.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/summer.css" />
+    <link rel="stylesheet" href="./css/archive.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+         HEADER
+         common/header.html이 들어오는 자리
+    ========================== -->
+    <div id="header"></div>
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+    <main>
+      <!-- =========================
+           01. MAIN SLIDER
+      ========================== -->
+      <div id="main-slider">
+        <div class="slider-track">
+         <a href="./detail.html" class="slide">
+            <img src="./img/slider/main_01.jpg" alt="슬라이드1" />
+         </a>
+
+          <a href="./detail.html" class="slide">
+            <img src="./img/slider/main_02.jpg" alt="슬라이드2" />
+          </a>
+
+          <a href="./detail.html" class="slide">
+            <img src="./img/slider/main_03.jpg" alt="슬라이드3" />
+          </a>
+
+          <a href="./detail.html" class="slide">
+            <img src="./img/slider/main_04.jpg" alt="슬라이드4" />
+          </a>
+
+          <a href="./detail.html" class="slide">
+            <img src="./img/slider/main_05.jpg" alt="슬라이드5" />
+          </a>
+        </div>
+
+        <!-- 이전 / 다음 버튼 -->
+        <button class="slider-prev">— prev</button>
+        <button class="slider-next">next —</button>
+
+        <!-- 슬라이드 하단 점 -->
+        <div class="slider-dots"></div>
+      </div>
+
+      <!-- =========================
+           02. SCENES FROM HOUSELABEL
+           Scenes.json 데이터 출력
+      ========================== -->
+      <div id="scenes" class="scroll-reveal">
+        <h3>Scenes from HouseLabel</h3>
+
+        <p>일상을 감각으로 채우는 세 가지 장면</p>
+
+        <!-- JS가 Scenes.json 데이터를 넣는 자리 -->
+        <div id="scene-list"></div>
+      </div>
+
+      <!-- =========================
+           03. CURATED BY HOUSELABEL
+           HouseLabeL.json 데이터 출력
+      ========================== -->
+      <div id="collection1" class="house-edit curated-section scroll-reveal">
+        <h3>Curated by HouseLabeL</h3>
+
+        <p>하우스라벨이 선별한 리빙 베스트</p>
+
+        <!-- 상품이 보이는 창 -->
+        <div class="curated-slider">
+          <!-- JS가 상품을 넣는 곳 -->
+          <div id="curated-track"></div>
+        </div>
+      </div>
+
+<!-- =========================
+     04. SUMMER / GIFT
+========================== -->
+
+<div id="summer-event" class="scroll-reveal">
+
+  <!-- 왼쪽 이미지 -->
+  <a href="./detail.html" class="event-banner">
+    <img
+      src="./img/Summer event/summer.jpg"
+      alt="SUMMER LIVING EVENT"
+    />
+  </a>
+
+  <!-- 오른쪽 내용 -->
+  <div class="event-content">
+
+    <h3>SUMMER LIVING EVENT</h3>
+
+    <p>
+      여름 식탁과 공간을 위한 하우스라벨 리빙 기획전<br />
+      Selected items up to 50% · 07.03 - 07.24
+    </p>
+
+    <!-- JS가 상품을 넣는 자리 -->
+    <div id="event-products"></div>
+
+  </div>
+
+  <!-- 이전 / 다음 -->
+  <button type="button" class="event-prev">‹</button>
+  <button type="button" class="event-next">›</button>
+
+</div>
+
+
+<!-- =========================
+     05. THE HOUSELABEL EDIT
+========================== -->
+
+<div id="collection2" class="house-edit section-grid scroll-reveal">
+
+  <h3>The HouseLabel Edit</h3>
+
+  <p>공간을 감도로 완성하는 리빙 컬렉션</p>
+
+  <!-- 카테고리 메뉴 -->
+  <div class="edit-category">
+
+    <a href="./detail.html">
+      HOME DECO
+    </a>
+
+    <a href="./detail.html" class="active">
+      TABLEWARE
+    </a>
+
+    <a href="./detail.html">
+      FABRIC
+    </a>
+
+    <a href="./detail.html">
+      FURNITURE
+    </a>
+
+    <a href="./detail.html">
+      PRINT
+    </a>
+
+    <a href="./detail.html">
+      GIFT
+    </a>
+
+  </div>
+
+  <!-- edit.js가 상품들을 이 안에 자동으로 추가 -->
+
+</div>
+
+
+<!-- =========================
+     06. MORE VIEW
+========================== -->
+
+<div class="more-view scroll-reveal">
+
+  <span></span>
+
+  <p>more view</p>
+
+  <span></span>
+
+</div>
+
+
+<!-- =========================
+     07. HOUSELABEL ARCHIVE
+========================== -->
+
+<div id="archive" class="scroll-reveal">
+
+  <!-- 왼쪽 설명 -->
+  <div class="archive-info">
+
+    <h3>HouseLabel Archive</h3>
+
+    <p class="archive-main-text">
+      하우스라벨이 지나온 장면들을 미디어와 기록으로 모아 둔 아카이브.
+    </p>
+
+    <p class="archive-sub-text">
+      공간과 오브제를 통해 만들어온 하우스라벨의 시간들을 기록합니다.
+    </p>
+
+    <a href="./detail.html" class="archive-btn">
+      아카이브 보기
+    </a>
+
+  </div>
+
+
+  <!-- 오른쪽 이미지 -->
+  <a href="./detail.html" class="archive-image">
+
+    <img
+      src="./img/archive/archive.jpg"
+      alt="HouseLabel Archive"
+    />
+
+  </a>
+
+</div>
+    <!-- =========================
+         FOOTER
+         common/footer.html이 들어오는 자리
+    ========================== -->
+    <div id="footer"></div>
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <!-- 공통 Header / Footer 불러오기 -->
+    <script src="./js/common.js"></script>
+
+    <!-- Slider / JSON 상품 출력 등 메인 기능 -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

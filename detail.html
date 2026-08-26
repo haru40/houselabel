@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Plate Rosemary | HouseLabel</title>
+
+    <!-- 공통 CSS -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <!-- 상세페이지 CSS -->
+    <link rel="stylesheet" href="./css/detail.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <div id="header"></div>
+
+    <!-- =========================
+         PRODUCT DETAIL
+    ========================== -->
+    <main class="detail-page">
+      <!-- 상단 경로 -->
+      <div class="breadcrumb">
+        HOME &gt; Scenes From HouseLabel &gt; For The Table &gt; Plate Rosemary
+      </div>
+
+      <div class="detail-inner">
+        <!-- =========================
+             왼쪽 상품 이미지
+        ========================== -->
+        <div class="detail-image">
+          <img src="./img/detail/plate-rosemary.png" alt="Plate Rosemary" />
+        </div>
+
+        <!-- =========================
+             오른쪽 상품 정보
+        ========================== -->
+        <div class="detail-info">
+          <!-- 상품명 + 찜 -->
+          <div class="detail-title">
+            <h2>Plate Rosemary</h2>
+
+            <button type="button" class="heart-btn">♡</button>
+          </div>
+
+          <!-- 가격 -->
+          <div class="detail-price">₩55,000</div>
+
+          <!-- 적립금 -->
+          <div class="detail-point">
+            <span>적립금</span>
+            <strong>1%</strong>
+          </div>
+          <!-- =========================
+               버튼
+          ========================== -->
+
+          <!-- =========================
+     옵션 / 수량
+========================== -->
+          <div class="order-box" data-price="55000">
+            <h3>Plate Rosemary</h3>
+
+            <div class="order-line">
+              <!-- 수량 -->
+              <div class="quantity">
+                <button type="button" id="minus-btn">−</button>
+
+                <span id="quantity">1</span>
+
+                <button type="button" id="plus-btn">+</button>
+              </div>
+
+              <!-- 선택 상품 금액 -->
+              <strong id="item-price">55,000원</strong>
+            </div>
+          </div>
+
+          <!-- =========================
+     총 상품 금액
+========================== -->
+          <div class="total-price">
+            <span>총 상품 금액</span>
+
+            <strong id="total-price">55,000</strong>
+
+            <span>원</span>
+          </div>
+
+          <!-- =========================
+     구매 버튼
+========================== -->
+          <button type="button" class="buy-btn" id="buy-btn">바로구매</button>
+
+          <div class="sub-buttons">
+            <button type="button">관심상품</button>
+
+            <button type="button" id="cart-btn">장바구니</button>
+          </div>
+        </div>
+        <!-- detail-info 끝 -->
+      </div>
+      <!-- detail-inner 끝 -->
+
+      <!-- =========================
+     PRODUCT DETAIL CONTENT
+========================== -->
+      <div class="product-detail-content">
+        <!-- 상세정보 / 상품문의 메뉴 -->
+        <div class="detail-tabs">
+          <div class="detail-tab active">상세 정보</div>
+
+          <div class="detail-tab">상품문의 0</div>
+        </div>
+
+        <!-- 상품 상세 이미지 -->
+        <div class="detail-content-image">
+          <img src="./img/detail/detail.jpg" alt="Plate Rosemary 상세 이미지" />
+        </div>
+      </div>
+    </main>
+
+    <!-- =========================
+     이용안내
+========================== -->
+    <div class="guide-section">
+      <h3>이용안내</h3>
+
+      <!-- 상품 이용 안내 -->
+      <div class="guide-item">
+        <button type="button" class="guide-title">
+          <span>상품 이용 안내</span>
+          <span class="guide-plus">+</span>
+        </button>
+
+        <div class="guide-content">
+          상품의 색상은 모니터 환경에 따라 실제 색상과 차이가 있을 수 있습니다.
+        </div>
+      </div>
+
+      <!-- 배송 안내 -->
+      <div class="guide-item">
+        <button type="button" class="guide-title">
+          <span>배송 안내</span>
+          <span class="guide-plus">+</span>
+        </button>
+
+        <div class="guide-content">
+          주문 완료 후 평균 2~5일 이내에 배송됩니다.
+        </div>
+      </div>
+
+      <!-- 교환 및 반품 안내 -->
+      <div class="guide-item">
+        <button type="button" class="guide-title">
+          <span>교환 및 반품 안내</span>
+          <span class="guide-plus">+</span>
+        </button>
+
+        <div class="guide-content">
+          상품 수령 후 7일 이내 교환 및 반품 신청이 가능합니다.
+        </div>
+      </div>
+
+      <!-- 기타 안내 -->
+      <div class="guide-item">
+        <button type="button" class="guide-title">
+          <span>기타 안내</span>
+          <span class="guide-plus">+</span>
+        </button>
+
+        <div class="guide-content">
+          기타 문의사항은 상품문의 게시판을 이용해 주세요.
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================
+     Q&A SECTION
+========================== -->
+    <div class="qna-section">
+      <!-- 상단 탭 느낌 -->
+      <div class="qna-tab-menu">
+        <div class="qna-tab">상세 정보</div>
+        <div class="qna-tab active">상품문의 0</div>
+      </div>
+
+      <!-- Q&A 제목줄 -->
+      <div class="qna-header">
+        <h3>Q&A</h3>
+        <a href="#">+ MORE</a>
+      </div>
+
+      <!-- 문의 없음 -->
+      <div class="qna-empty">등록된 문의가 없습니다.</div>
+
+      <!-- 버튼 -->
+      <div class="qna-btn-wrap">
+        <button type="button" class="qna-write-btn">WRITE</button>
+      </div>
+    </div>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <div id="footer"></div>
+
+    <!-- 공통 Header / Footer -->
+    <script src="./js/common.js"></script>
+    <script src="./js/detail.js"></script>
+  </body>
+</html>

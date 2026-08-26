@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* =========================
+   맨 위 안내 문구
+========================= */
+
+.top-message {
+  width: 100%;
+
+  padding: 12px 0;
+
+  text-align: center;
+
+  font-size: 12px;
+
+  color: #555;
+
+  background-color: #f8f7f4;
+}
+
+/* =========================
+   로그인 / 장바구니
+========================= */
+
+.utility-menu {
+  width: 80%;
+
+  margin: 10px auto 0;
+
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 12px;
+}
+
+.utility-menu > a {
+  font-size: 11px;
+
+  color: #666;
+
+  text-decoration: none;
+}
+
+/* =========================
+   로고 영역
+========================= */
+
+.logo-area {
+  width: 65%;
+
+  margin: 10px auto 20px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 35px;
+}
+
+.logo-area > a > h1 {
+  font-family: Arial, sans-serif;
+
+  font-size: 32px;
+  font-weight: 400;
+
+  letter-spacing: 6px;
+
+  white-space: nowrap;
+
+  color: #222;
+}
+.logo-area > a,
+.logo-area > a:hover,
+.logo-area > a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 장식 이미지 묶음 */
+
+.logo-deco {
+  display: flex;
+
+  align-items: center;
+
+  gap: 25px;
+}
+
+.logo-deco > img {
+  width: 90px;
+  height: 70px;
+
+  object-fit: contain;
+
+  opacity: 0.45;
+}
+
+/* =========================
+   메인 메뉴
+========================= */
+
+.main-nav {
+  width: 65%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 15px;
+}
+
+/* =========================
+   햄버거 버튼
+========================= */
+
+.menu-btn {
+  width: 30px;
+
+  margin-right: 70px;
+
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  font-size: 20px;
+
+  color: #222;
+
+  cursor: pointer;
+
+  flex-shrink: 0;
+}
+
+/* =========================
+   메뉴 전체
+========================= */
+
+.main-nav > ul {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+
+  gap: 90px;
+
+  /* ul 기본 여백 제거 */
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+/* 메뉴 하나 */
+
+.main-nav > ul > li {
+  list-style: none;
+}
+
+/* 메뉴 글자 */
+
+.main-nav > ul > li > a {
+  font-family: Georgia, serif;
+
+  font-size: 17px;
+
+  color: #59483f;
+
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  transition: color 0.3s ease;
+}
+
+/* =========================
+   SHOP hover 글자 변경
+========================= */
+
+.shop-menu {
+  display: inline-block;
+
+  width: 125px;
+
+  text-align: center;
+}
+
+/* 한글은 처음에 숨기기 */
+
+.shop-ko {
+  display: none;
+}
+
+/* SHOP에 마우스 올리면 영어 숨기기 */
+
+.shop-menu:hover .shop-en {
+  display: none;
+}
+
+/* 한글 나타나기 */
+
+.shop-menu:hover .shop-ko {
+  display: inline;
+}
+
+/* 메뉴에 마우스 올리면 색 변경 */
+
+.main-nav a:hover {
+  color: #b58a6a;
+}

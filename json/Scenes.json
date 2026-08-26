@@ -1,0 +1,23 @@
+    [
+  {
+    "title": "For the Table",
+    "overlay": "For moments made around the table",
+    "english": "For moments shared at the table.",
+    "korean": "함께의 순간을 채우는 테이블웨어",
+    "image": "./img/Scenes from HouseLabel/for the table.jpg"
+  },
+  {
+    "title": "For the Home",
+    "overlay": "Objects that live with you",
+    "english": "Objects that make home yours.",
+    "korean": "집의 결을 만드는 오브제",
+    "image": "./img/Scenes from HouseLabel/for the home.jpg"
+  },
+  {
+    "title": "For the Wall",
+    "overlay": "Art that completes a space",
+    "english": "Art that defines your space.",
+    "korean": "공간에 깊이를 더하는 아트워크",
+    "image": "./img/Scenes from HouseLabel/for the wall.jpg"
+  }
+]

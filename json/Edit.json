@@ -1,0 +1,74 @@
+[
+  {
+    "rank": 1,
+    "name": "Cup latte Red 5stripes",
+    "price": 59000,
+    "image": "./img/The HouseLabel Edit/mug1.jpg"
+  },
+  {
+    "rank": 2,
+    "name": "Cup latte Pink 5stripes",
+    "price": 59000,
+    "image": "./img/The HouseLabel Edit/mug2.jpg"
+  },
+  {
+    "rank": 3,
+    "name": "Cup latte Blue 5stripes",
+    "price": 59000,
+    "image": "./img/The HouseLabel Edit/mug3.jpg"
+  },
+  {
+    "rank": 4,
+    "name": "Cup latte Grey 5stripes",
+    "price": 59000,
+    "image": "./img/The HouseLabel Edit/mug4.jpg"
+  },
+  {
+    "rank": 5,
+    "name": "Glass tea-cup for infusions",
+    "price": 48000,
+    "image": "./img/The HouseLabel Edit/glass1.jpg"
+  },
+  {
+    "rank": 6,
+    "name": "Leadfree Crystal Glass 250ml",
+    "price": 25800,
+    "image": "./img/The HouseLabel Edit/glass2.jpg"
+  },
+  {
+    "rank": 7,
+    "name": "Wine Glass-New",
+    "price": 37000,
+    "image": "./img/The HouseLabel Edit/glass3.jpg"
+  },
+  {
+    "rank": 8,
+    "name": "White Wine Glass-Classic Stem",
+    "price": 35000,
+    "image": "./img/The HouseLabel Edit/glass4.jpg"
+  },
+  {
+    "rank": 9,
+    "name": "Square Plate-Modern Classic",
+    "price": 99000,
+    "image": "./img/The HouseLabel Edit/plate1.jpg"
+  },
+  {
+    "rank": 10,
+    "name": "Flower-shaped Dish",
+    "price": 57000,
+    "image": "./img/The HouseLabel Edit/plate2.jpg"
+  },
+  {
+    "rank": 11,
+    "name": "Round Dish Series-Porcelain Plate",
+    "price": 24000,
+    "image": "./img/The HouseLabel Edit/plate3.jpg"
+  },
+  {
+    "rank": 12,
+    "name": "Rectangular Plate-Modern Classic",
+    "price": 72000,
+    "image": "./img/The HouseLabel Edit/plate4.jpg"
+  }
+]
