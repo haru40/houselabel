@@ -17,8 +17,9 @@ footer {
 /* footer 전체 내용 */
 
 .footer-inner {
-  width: 75%;
+  width: 92%;
   max-width: 1500px;
+  box-sizing: border-box;
 
   margin: 0 auto;
 
@@ -28,8 +29,10 @@ footer {
 
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 
-  gap: 90px;
+  /* 화면 폭에 맞춰 간격 조절 (좁으면 다음 줄로) */
+  gap: 40px clamp(24px, 3vw, 90px);
 }
 
 /* 각 박스 */
@@ -82,7 +85,7 @@ footer {
 /* COMPANY INFO */
 
 .company-info {
-  min-width: 360px;
+  min-width: 270px;
 }
 
 .company-info > p > span {
@@ -94,7 +97,7 @@ footer {
 /* CONTACT US */
 
 .contact-us {
-  min-width: 370px;
+  min-width: 270px;
 }
 
 .contact-us > p > span {
@@ -104,7 +107,7 @@ footer {
 /* 링크 메뉴 */
 
 .footer-menu {
-  min-width: 145px;
+  min-width: 110px;
 }
 
 .footer-menu > a {

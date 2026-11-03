@@ -74,7 +74,8 @@
   width: 100%;
 
   display: grid;
-  grid-template-columns: 400px 400px;
+  /* 남은 공간을 둘로 나눠 영역 밖으로 넘치지 않게 */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   justify-content: start;
 
   column-gap: 45px;
